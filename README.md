@@ -1,0 +1,1 @@
+# multilingual-text-detection-font-agnostic-ocr-pipeline
