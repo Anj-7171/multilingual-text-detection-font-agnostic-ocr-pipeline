@@ -1,0 +1,322 @@
+[
+    {
+        "id": 0,
+        "image": "data\\dataset\\english\\arial\\english_arial_00.png",
+        "script": "english",
+        "font": "arial",
+        "font_file": "fonts\\english\\arial.ttf",
+        "text": "Hello World OCR Test"
+    },
+    {
+        "id": 1,
+        "image": "data\\dataset\\english\\arial\\english_arial_01.png",
+        "script": "english",
+        "font": "arial",
+        "font_file": "fonts\\english\\arial.ttf",
+        "text": "Multilingual Text Detection"
+    },
+    {
+        "id": 2,
+        "image": "data\\dataset\\english\\arial\\english_arial_02.png",
+        "script": "english",
+        "font": "arial",
+        "font_file": "fonts\\english\\arial.ttf",
+        "text": "Font Agnostic OCR Pipeline"
+    },
+    {
+        "id": 3,
+        "image": "data\\dataset\\english\\arial\\english_arial_03.png",
+        "script": "english",
+        "font": "arial",
+        "font_file": "fonts\\english\\arial.ttf",
+        "text": "Detection Sample Line Two"
+    },
+    {
+        "id": 4,
+        "image": "data\\dataset\\english\\calibri\\english_calibri_00.png",
+        "script": "english",
+        "font": "calibri",
+        "font_file": "fonts\\english\\calibri.ttf",
+        "text": "Hello World OCR Test"
+    },
+    {
+        "id": 5,
+        "image": "data\\dataset\\english\\calibri\\english_calibri_01.png",
+        "script": "english",
+        "font": "calibri",
+        "font_file": "fonts\\english\\calibri.ttf",
+        "text": "Multilingual Text Detection"
+    },
+    {
+        "id": 6,
+        "image": "data\\dataset\\english\\calibri\\english_calibri_02.png",
+        "script": "english",
+        "font": "calibri",
+        "font_file": "fonts\\english\\calibri.ttf",
+        "text": "Font Agnostic OCR Pipeline"
+    },
+    {
+        "id": 7,
+        "image": "data\\dataset\\english\\calibri\\english_calibri_03.png",
+        "script": "english",
+        "font": "calibri",
+        "font_file": "fonts\\english\\calibri.ttf",
+        "text": "Detection Sample Line Two"
+    },
+    {
+        "id": 8,
+        "image": "data\\dataset\\english\\comic\\english_comic_00.png",
+        "script": "english",
+        "font": "comic",
+        "font_file": "fonts\\english\\comic.ttf",
+        "text": "Hello World OCR Test"
+    },
+    {
+        "id": 9,
+        "image": "data\\dataset\\english\\comic\\english_comic_01.png",
+        "script": "english",
+        "font": "comic",
+        "font_file": "fonts\\english\\comic.ttf",
+        "text": "Multilingual Text Detection"
+    },
+    {
+        "id": 10,
+        "image": "data\\dataset\\english\\comic\\english_comic_02.png",
+        "script": "english",
+        "font": "comic",
+        "font_file": "fonts\\english\\comic.ttf",
+        "text": "Font Agnostic OCR Pipeline"
+    },
+    {
+        "id": 11,
+        "image": "data\\dataset\\english\\comic\\english_comic_03.png",
+        "script": "english",
+        "font": "comic",
+        "font_file": "fonts\\english\\comic.ttf",
+        "text": "Detection Sample Line Two"
+    },
+    {
+        "id": 12,
+        "image": "data\\dataset\\english\\impact\\english_impact_00.png",
+        "script": "english",
+        "font": "impact",
+        "font_file": "fonts\\english\\impact.ttf",
+        "text": "Hello World OCR Test"
+    },
+    {
+        "id": 13,
+        "image": "data\\dataset\\english\\impact\\english_impact_01.png",
+        "script": "english",
+        "font": "impact",
+        "font_file": "fonts\\english\\impact.ttf",
+        "text": "Multilingual Text Detection"
+    },
+    {
+        "id": 14,
+        "image": "data\\dataset\\english\\impact\\english_impact_02.png",
+        "script": "english",
+        "font": "impact",
+        "font_file": "fonts\\english\\impact.ttf",
+        "text": "Font Agnostic OCR Pipeline"
+    },
+    {
+        "id": 15,
+        "image": "data\\dataset\\english\\impact\\english_impact_03.png",
+        "script": "english",
+        "font": "impact",
+        "font_file": "fonts\\english\\impact.ttf",
+        "text": "Detection Sample Line Two"
+    },
+    {
+        "id": 16,
+        "image": "data\\dataset\\english\\times\\english_times_00.png",
+        "script": "english",
+        "font": "times",
+        "font_file": "fonts\\english\\times.ttf",
+        "text": "Hello World OCR Test"
+    },
+    {
+        "id": 17,
+        "image": "data\\dataset\\english\\times\\english_times_01.png",
+        "script": "english",
+        "font": "times",
+        "font_file": "fonts\\english\\times.ttf",
+        "text": "Multilingual Text Detection"
+    },
+    {
+        "id": 18,
+        "image": "data\\dataset\\english\\times\\english_times_02.png",
+        "script": "english",
+        "font": "times",
+        "font_file": "fonts\\english\\times.ttf",
+        "text": "Font Agnostic OCR Pipeline"
+    },
+    {
+        "id": 19,
+        "image": "data\\dataset\\english\\times\\english_times_03.png",
+        "script": "english",
+        "font": "times",
+        "font_file": "fonts\\english\\times.ttf",
+        "text": "Detection Sample Line Two"
+    },
+    {
+        "id": 20,
+        "image": "data\\dataset\\hindi\\aparaj\\hindi_aparaj_00.png",
+        "script": "hindi",
+        "font": "aparaj",
+        "font_file": "fonts\\hindi\\aparaj.ttf",
+        "text": "नमस्ते दुनिया"
+    },
+    {
+        "id": 21,
+        "image": "data\\dataset\\hindi\\aparaj\\hindi_aparaj_01.png",
+        "script": "hindi",
+        "font": "aparaj",
+        "font_file": "fonts\\hindi\\aparaj.ttf",
+        "text": "बहुभाषी पाठ पहचान"
+    },
+    {
+        "id": 22,
+        "image": "data\\dataset\\hindi\\aparaj\\hindi_aparaj_02.png",
+        "script": "hindi",
+        "font": "aparaj",
+        "font_file": "fonts\\hindi\\aparaj.ttf",
+        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+    },
+    {
+        "id": 23,
+        "image": "data\\dataset\\hindi\\aparaj\\hindi_aparaj_03.png",
+        "script": "hindi",
+        "font": "aparaj",
+        "font_file": "fonts\\hindi\\aparaj.ttf",
+        "text": "यह एक परीक्षण है"
+    },
+    {
+        "id": 24,
+        "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_00.png",
+        "script": "hindi",
+        "font": "kokila",
+        "font_file": "fonts\\hindi\\kokila.ttf",
+        "text": "नमस्ते दुनिया"
+    },
+    {
+        "id": 25,
+        "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_01.png",
+        "script": "hindi",
+        "font": "kokila",
+        "font_file": "fonts\\hindi\\kokila.ttf",
+        "text": "बहुभाषी पाठ पहचान"
+    },
+    {
+        "id": 26,
+        "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_02.png",
+        "script": "hindi",
+        "font": "kokila",
+        "font_file": "fonts\\hindi\\kokila.ttf",
+        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+    },
+    {
+        "id": 27,
+        "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_03.png",
+        "script": "hindi",
+        "font": "kokila",
+        "font_file": "fonts\\hindi\\kokila.ttf",
+        "text": "यह एक परीक्षण है"
+    },
+    {
+        "id": 28,
+        "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_00.png",
+        "script": "hindi",
+        "font": "mangal",
+        "font_file": "fonts\\hindi\\mangal.ttf",
+        "text": "नमस्ते दुनिया"
+    },
+    {
+        "id": 29,
+        "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_01.png",
+        "script": "hindi",
+        "font": "mangal",
+        "font_file": "fonts\\hindi\\mangal.ttf",
+        "text": "बहुभाषी पाठ पहचान"
+    },
+    {
+        "id": 30,
+        "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_02.png",
+        "script": "hindi",
+        "font": "mangal",
+        "font_file": "fonts\\hindi\\mangal.ttf",
+        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+    },
+    {
+        "id": 31,
+        "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_03.png",
+        "script": "hindi",
+        "font": "mangal",
+        "font_file": "fonts\\hindi\\mangal.ttf",
+        "text": "यह एक परीक्षण है"
+    },
+    {
+        "id": 32,
+        "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_00.png",
+        "script": "hindi",
+        "font": "utsaah",
+        "font_file": "fonts\\hindi\\utsaah.ttf",
+        "text": "नमस्ते दुनिया"
+    },
+    {
+        "id": 33,
+        "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_01.png",
+        "script": "hindi",
+        "font": "utsaah",
+        "font_file": "fonts\\hindi\\utsaah.ttf",
+        "text": "बहुभाषी पाठ पहचान"
+    },
+    {
+        "id": 34,
+        "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_02.png",
+        "script": "hindi",
+        "font": "utsaah",
+        "font_file": "fonts\\hindi\\utsaah.ttf",
+        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+    },
+    {
+        "id": 35,
+        "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_03.png",
+        "script": "hindi",
+        "font": "utsaah",
+        "font_file": "fonts\\hindi\\utsaah.ttf",
+        "text": "यह एक परीक्षण है"
+    },
+    {
+        "id": 36,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_00.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "வணக்கம் உலகம்"
+    },
+    {
+        "id": 37,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_01.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "பலமொழி உரை கண்டறிதல்"
+    },
+    {
+        "id": 38,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_02.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "எழுத்துரு சார்பற்ற OCR குழாய்"
+    },
+    {
+        "id": 39,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_03.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "இது ஒரு சோதனை"
+    }
+]
