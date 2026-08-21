@@ -378,6 +378,8 @@ Hindi recognition produced very high error rates, indicating that additional wor
 ---
 
 # CER by Script
+<img width="2370" height="1467" alt="image" src="https://github.com/user-attachments/assets/d1f4cd28-ee74-41fc-88c7-12859dec881d" />
+
 
 The visualization makes the difference in recognition performance between the three scripts immediately visible.
 
@@ -422,6 +424,8 @@ on the current evaluation dataset.
 ---
 
 # Baseline vs Script-Aware Visualization
+<img width="2370" height="1467" alt="image" src="https://github.com/user-attachments/assets/2911f61d-ceb5-44e4-a80b-9ba7cb046bb6" />
+
 
 This visualization compares the average CER obtained using the generic OCR configuration against the script-aware configuration.
 
