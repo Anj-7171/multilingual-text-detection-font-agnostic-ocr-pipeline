@@ -1,0 +1,61 @@
+﻿id,script,font,image,ground_truth,prediction,recognition_confidence,cer,wer
+0,english,arial,data\dataset\english\arial\english_arial_00.png,Hello World OCR Test,cYanmaelaGenaYelow,0.6458128690719604,0.95,1.0
+1,english,arial,data\dataset\english\arial\english_arial_01.png,Multilingual Text Detection,cYanmaulaentaYellowb,0.7634307742118835,0.8148148148148148,1.0
+2,english,arial,data\dataset\english\arial\english_arial_02.png,Font Agnostic OCR Pipeline,cYananmaGentaYellowb,0.8658440709114075,0.9230769230769231,1.0
+3,english,arial,data\dataset\english\arial\english_arial_03.png,Detection Sample Line Two,cYananmaGentYellowb,0.8146634101867676,0.8,1.0
+4,english,calibri,data\dataset\english\calibri\english_calibri_00.png,Optical Character Recognition,cYanmanmaGentaYellowb,0.9030904173851013,0.8620689655172413,1.0
+5,english,calibri,data\dataset\english\calibri\english_calibri_01.png,Testing Text Recognition Accuracy,cYanmaGentaYellowb,0.9215496778488159,0.8484848484848485,1.0
+6,english,calibri,data\dataset\english\calibri\english_calibri_02.png,Computer Vision Pipeline,cYanmamaGentYellowb,0.861812174320221,0.9166666666666666,1.0
+7,english,calibri,data\dataset\english\calibri\english_calibri_03.png,Language Detection Experiment,cYananmaGentaYellowb,0.906232476234436,0.8275862068965517,1.0
+8,english,comic,data\dataset\english\comic\english_comic_00.png,Robust OCR Across Fonts,Rost OC Across fonts,0.5703678131103516,0.17391304347826086,0.75
+9,english,comic,data\dataset\english\comic\english_comic_01.png,Synthetic Dataset Generation,cYananmaGntaYelo,0.7600804567337036,0.7857142857142857,1.0
+10,english,comic,data\dataset\english\comic\english_comic_02.png,Machine Learning Text Analysis,Yanmcma etael,0.4467832148075104,0.7666666666666667,1.0
+11,english,comic,data\dataset\english\comic\english_comic_03.png,Image Based Text Recognition,cYananmaGeentaYellowb,0.8624416589736938,0.7857142857142857,1.0
+12,english,impact,data\dataset\english\impact\english_impact_00.png,Cross Language OCR Evaluation,cYanamaGentaYellowb,0.8994511961936951,0.8275862068965517,1.0
+13,english,impact,data\dataset\english\impact\english_impact_01.png,Character Recognition Benchmark,cYanmanmaGentaYellowbl,0.8501754999160767,0.8387096774193549,1.0
+14,english,impact,data\dataset\english\impact\english_impact_02.png,Deep Learning Vision System,cYanmanmaGentaYellowb,0.8894780278205872,0.9259259259259259,1.0
+15,english,impact,data\dataset\english\impact\english_impact_03.png,Text Processing With OCR,cYanmamaGentaYellowb,0.9445292353630066,0.9166666666666666,1.0
+16,english,times,data\dataset\english\times\english_times_00.png,Font Robustness Evaluation,cYanmaGentaYellowb,0.8932707905769348,0.9230769230769231,1.0
+17,english,times,data\dataset\english\times\english_times_01.png,Multilingual Vision Pipeline,cYanmdaentaYellowb,0.8484256267547607,0.8571428571428571,1.0
+18,english,times,data\dataset\english\times\english_times_02.png,Automated Text Detection,cYanmaGentaYellowb,0.8509732484817505,0.7916666666666666,1.0
+19,english,times,data\dataset\english\times\english_times_03.png,OCR Performance Analysis,cYananmaGentaYellowb,0.9265831112861633,0.875,1.0
+20,hindi,aparaj,data\dataset\hindi\aparaj\hindi_aparaj_00.png,नमस्ते दुनिया,cYYaYYamGYlowb,0.6454463005065918,1.0769230769230769,1.0
+21,hindi,aparaj,data\dataset\hindi\aparaj\hindi_aparaj_01.png,बहुभाषी पाठ पहचान,cYaYYamGnGYowb,0.6195361018180847,1.0,1.0
+22,hindi,aparaj,data\dataset\hindi\aparaj\hindi_aparaj_02.png,फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन,cYYalowb,0.7981630563735962,1.0,1.0
+23,hindi,aparaj,data\dataset\hindi\aparaj\hindi_aparaj_03.png,यह एक परीक्षण है,cYYYanmaGaYlowb,0.6759719252586365,1.0,1.0
+24,hindi,aparaj,data\dataset\hindi\aparaj\hindi_aparaj_04.png,ऑप्टिकल कैरेक्टर रिकग्निशन,cYYamalowb,0.6027281284332275,1.0,1.0
+25,hindi,kokila,data\dataset\hindi\kokila\hindi_kokila_00.png,पाठ पहचान सटीकता परीक्षण,cYaYYmGatlowb,0.5823475122451782,1.0,1.0
+26,hindi,kokila,data\dataset\hindi\kokila\hindi_kokila_01.png,कंप्यूटर विज़न पाइपलाइन,cYYYaGllowb,0.7826928496360779,1.0,1.0
+27,hindi,kokila,data\dataset\hindi\kokila\hindi_kokila_02.png,भाषा पहचान प्रयोग,cYaYYamGllwb,0.6485913395881653,1.0,1.0
+28,hindi,kokila,data\dataset\hindi\kokila\hindi_kokila_03.png,विभिन्न फॉन्ट पर ओसीआर,cYaYYamaGnlowb,0.6361861824989319,1.0,1.0
+29,hindi,kokila,data\dataset\hindi\kokila\hindi_kokila_04.png,सिंथेटिक डेटासेट निर्माण,cYaYYael wb,0.6414861083030701,0.9583333333333334,1.0
+30,hindi,mangal,data\dataset\hindi\mangal\hindi_mangal_00.png,मशीन लर्निंग पाठ विश्लेषण,cYaYanaGnGna शिlowb,0.6181360483169556,0.92,1.0
+31,hindi,mangal,data\dataset\hindi\mangal\hindi_mangal_01.png,चित्र आधारित पाठ पहचान,cYYamaGnnYnYlowb,0.7029287219047546,1.0,1.0
+32,hindi,mangal,data\dataset\hindi\mangal\hindi_mangal_02.png,बहुभाषी ओसीआर मूल्यांकन,cYYamGGeGGGlowb,0.6582922339439392,1.0,1.0
+33,hindi,mangal,data\dataset\hindi\mangal\hindi_mangal_03.png,अक्षर पहचान परीक्षण,cYYamGnGnlwb,0.6573002338409424,1.0,1.0
+34,hindi,mangal,data\dataset\hindi\mangal\hindi_mangal_04.png,डीप लर्निंग विज़न सिस्टम,cYYamaGanaGeसटllowb,0.5322865843772888,1.0,1.0
+35,hindi,utsaah,data\dataset\hindi\utsaah\hindi_utsaah_00.png,ओसीआर के साथ पाठ प्रसंस्करण,cYYYaGaGnGalowb,0.6156061887741089,1.0,1.0
+36,hindi,utsaah,data\dataset\hindi\utsaah\hindi_utsaah_01.png,फॉन्ट मजबूती मूल्यांकन,cYaYYanaGlowb,0.6717361807823181,1.0,1.0
+37,hindi,utsaah,data\dataset\hindi\utsaah\hindi_utsaah_02.png,बहुभाषी विज़न पाइपलाइन,cYaYYaGGalowb,0.6242713928222656,1.0,1.0
+38,hindi,utsaah,data\dataset\hindi\utsaah\hindi_utsaah_03.png,स्वचालित पाठ पहचान,cYaYYamaGnYlowb,0.6290777921676636,1.0,1.0
+39,hindi,utsaah,data\dataset\hindi\utsaah\hindi_utsaah_04.png,ओसीआर प्रदर्शन विश्लेषण,cYaYYaGaGlwb,0.6833605766296387,1.0,1.0
+40,tamil,latha,data\dataset\tamil\latha\tamil_latha_00.png,வணக்கம் உலகம்,வணக்கம் உலகம்,0.9621848464012146,0.0,0.0
+41,tamil,latha,data\dataset\tamil\latha\tamil_latha_01.png,பலமொழி உரை கண்டறிதல்,பலமொழி உரை கண்டறிதல் ,0.9411858916282654,0.0,0.0
+42,tamil,latha,data\dataset\tamil\latha\tamil_latha_02.png,எழுத்துரு சார்பற்ற OCR குழாய்,எழுத்துரு சார்பற்ற cR குழாய்,0.9435612559318542,0.06896551724137931,0.25
+43,tamil,latha,data\dataset\tamil\latha\tamil_latha_03.png,இது ஒரு சோதனை,இது ஒரு சோதனை ,0.9177983403205872,0.0,0.0
+44,tamil,latha,data\dataset\tamil\latha\tamil_latha_04.png,ஒளியியல் எழுத்து அங்கீகாரம்,ஒளியியல் எழுத்து அங்கீகாரம்,0.9652013182640076,0.0,0.0
+45,tamil,latha,data\dataset\tamil\latha\tamil_latha_05.png,உரை அங்கீகார துல்லியம் சோதனை,உரை அங்கீகார துல்லியம் சோதனை,0.9911108016967773,0.0,0.0
+46,tamil,latha,data\dataset\tamil\latha\tamil_latha_06.png,கணினி பார்வை குழாய்,கணினி பார்வை குழாய்,0.9811428189277649,0.0,0.0
+47,tamil,latha,data\dataset\tamil\latha\tamil_latha_07.png,மொழி கண்டறிதல் பரிசோதனை,மொழி கண்டறிதல் பரிசோதனை,0.952149510383606,0.0,0.0
+48,tamil,latha,data\dataset\tamil\latha\tamil_latha_08.png,வெவ்வேறு எழுத்துருக்களில் OCR,வெவ்வேறு எழுத்துருக்களில் OCR,0.9728459119796753,0.0,0.0
+49,tamil,latha,data\dataset\tamil\latha\tamil_latha_09.png,செயற்கை தரவுத்தொகுப்பு உருவாக்கம்,செயற்கை தரவுத்தொகுப்பு உருவாக்கம்,0.9734721183776855,0.0,0.0
+50,tamil,latha,data\dataset\tamil\latha\tamil_latha_10.png,இயந்திர கற்றல் உரை பகுப்பாய்வு,இயந்திர கற்றல் உரை பகுப்பாய்வு,0.9763425588607788,0.0,0.0
+51,tamil,latha,data\dataset\tamil\latha\tamil_latha_11.png,பட அடிப்படையிலான உரை அங்கீகாரம்,பட அடிப்படையிலான உரை அங்கீகாரம்,0.9839287996292114,0.0,0.0
+52,tamil,latha,data\dataset\tamil\latha\tamil_latha_12.png,பலமொழி OCR மதிப்பீடு,பலமொழி R மதிப்படு ,0.9050102233886719,0.15,0.6666666666666666
+53,tamil,latha,data\dataset\tamil\latha\tamil_latha_13.png,எழுத்து அங்கீகார சோதனை,எழுத்து அங்கீகார சோதனை ,0.9652844071388245,0.0,0.0
+54,tamil,latha,data\dataset\tamil\latha\tamil_latha_14.png,ஆழமான கற்றல் பார்வை அமைப்பு,ஆழமான கற்றல் பார்வை அமைப்பு,0.971074640750885,0.0,0.0
+55,tamil,latha,data\dataset\tamil\latha\tamil_latha_15.png,OCR மூலம் உரை செயலாக்கம்,OCA மூலம் உரை செயலாக்கம்,0.8905045986175537,0.041666666666666664,0.25
+56,tamil,latha,data\dataset\tamil\latha\tamil_latha_16.png,எழுத்துரு வலிமை மதிப்பீடு,எழுத்துரு வலிமை மதிப்பீடு,0.9638988375663757,0.0,0.0
+57,tamil,latha,data\dataset\tamil\latha\tamil_latha_17.png,பலமொழி பார்வை குழாய்,பலமொழி பார்வை குழாய்,0.962692379951477,0.0,0.0
+58,tamil,latha,data\dataset\tamil\latha\tamil_latha_18.png,தானியங்கி உரை கண்டறிதல்,தானியங்கி உரை கண்டறிதல்,0.9671605229377747,0.0,0.0
+59,tamil,latha,data\dataset\tamil\latha\tamil_latha_19.png,OCR செயல்திறன் பகுப்பாய்வு,OCR செயல்திறன் பகுப்பாய்வு,0.9335885643959045,0.0,0.0
