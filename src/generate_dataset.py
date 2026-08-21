@@ -17,13 +17,40 @@ OUTPUT_DIR = PROJECT_ROOT / "data" / "dataset"
 # ---------------------------------------------------------
 # Ground-truth text
 # ---------------------------------------------------------
+# 20 unique samples per language.
+#
+# The dataset is balanced at the LANGUAGE level:
+# English = 20 images
+# Hindi   = 20 images
+# Tamil   = 20 images
+#
+# Because the number of fonts differs by language,
+# samples are distributed across available fonts.
+# ---------------------------------------------------------
 
 TEXT_DATA = {
+
     "english": [
         "Hello World OCR Test",
         "Multilingual Text Detection",
         "Font Agnostic OCR Pipeline",
         "Detection Sample Line Two",
+        "Optical Character Recognition",
+        "Testing Text Recognition Accuracy",
+        "Computer Vision Pipeline",
+        "Language Detection Experiment",
+        "Robust OCR Across Fonts",
+        "Synthetic Dataset Generation",
+        "Machine Learning Text Analysis",
+        "Image Based Text Recognition",
+        "Cross Language OCR Evaluation",
+        "Character Recognition Benchmark",
+        "Deep Learning Vision System",
+        "Text Processing With OCR",
+        "Font Robustness Evaluation",
+        "Multilingual Vision Pipeline",
+        "Automated Text Detection",
+        "OCR Performance Analysis",
     ],
 
     "hindi": [
@@ -31,6 +58,22 @@ TEXT_DATA = {
         "बहुभाषी पाठ पहचान",
         "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन",
         "यह एक परीक्षण है",
+        "ऑप्टिकल कैरेक्टर रिकग्निशन",
+        "पाठ पहचान सटीकता परीक्षण",
+        "कंप्यूटर विज़न पाइपलाइन",
+        "भाषा पहचान प्रयोग",
+        "विभिन्न फॉन्ट पर ओसीआर",
+        "सिंथेटिक डेटासेट निर्माण",
+        "मशीन लर्निंग पाठ विश्लेषण",
+        "चित्र आधारित पाठ पहचान",
+        "बहुभाषी ओसीआर मूल्यांकन",
+        "अक्षर पहचान परीक्षण",
+        "डीप लर्निंग विज़न सिस्टम",
+        "ओसीआर के साथ पाठ प्रसंस्करण",
+        "फॉन्ट मजबूती मूल्यांकन",
+        "बहुभाषी विज़न पाइपलाइन",
+        "स्वचालित पाठ पहचान",
+        "ओसीआर प्रदर्शन विश्लेषण",
     ],
 
     "tamil": [
@@ -38,6 +81,22 @@ TEXT_DATA = {
         "பலமொழி உரை கண்டறிதல்",
         "எழுத்துரு சார்பற்ற OCR குழாய்",
         "இது ஒரு சோதனை",
+        "ஒளியியல் எழுத்து அங்கீகாரம்",
+        "உரை அங்கீகார துல்லியம் சோதனை",
+        "கணினி பார்வை குழாய்",
+        "மொழி கண்டறிதல் பரிசோதனை",
+        "வெவ்வேறு எழுத்துருக்களில் OCR",
+        "செயற்கை தரவுத்தொகுப்பு உருவாக்கம்",
+        "இயந்திர கற்றல் உரை பகுப்பாய்வு",
+        "பட அடிப்படையிலான உரை அங்கீகாரம்",
+        "பலமொழி OCR மதிப்பீடு",
+        "எழுத்து அங்கீகார சோதனை",
+        "ஆழமான கற்றல் பார்வை அமைப்பு",
+        "OCR மூலம் உரை செயலாக்கம்",
+        "எழுத்துரு வலிமை மதிப்பீடு",
+        "பலமொழி பார்வை குழாய்",
+        "தானியங்கி உரை கண்டறிதல்",
+        "OCR செயல்திறன் பகுப்பாய்வு",
     ],
 }
 
@@ -53,6 +112,13 @@ FONT_SIZE = 60
 
 BACKGROUND_COLOR = "white"
 TEXT_COLOR = "black"
+
+
+# ---------------------------------------------------------
+# Dataset configuration
+# ---------------------------------------------------------
+
+TARGET_SAMPLES_PER_LANGUAGE = 20
 
 
 # ---------------------------------------------------------
@@ -155,6 +221,15 @@ def generate_dataset():
             f"\nGenerating {script} dataset..."
         )
 
+        print(
+            f"  Available fonts: {len(fonts)}"
+        )
+
+        print(
+            f"  Target images: "
+            f"{TARGET_SAMPLES_PER_LANGUAGE}"
+        )
+
         script_output_dir = OUTPUT_DIR / script
 
         script_output_dir.mkdir(
@@ -162,7 +237,30 @@ def generate_dataset():
             exist_ok=True
         )
 
-        for font_path in fonts:
+        # -------------------------------------------------
+        # Distribute the target number of samples across
+        # the available fonts.
+        #
+        # Example:
+        #
+        # English: 20 samples / 5 fonts = 4 each
+        # Hindi:   20 samples / 4 fonts = 5 each
+        # Tamil:   20 samples / 1 font  = 20
+        # -------------------------------------------------
+
+        base_samples = (
+            TARGET_SAMPLES_PER_LANGUAGE
+            // len(fonts)
+        )
+
+        extra_samples = (
+            TARGET_SAMPLES_PER_LANGUAGE
+            % len(fonts)
+        )
+
+        text_index = 0
+
+        for font_index, font_path in enumerate(fonts):
 
             font_name = font_path.stem
 
@@ -175,15 +273,32 @@ def generate_dataset():
                 exist_ok=True
             )
 
-            print(
-                f"  Font: {font_path.name}"
+            # Some fonts receive one additional sample
+            # if the target cannot be divided equally.
+            samples_for_font = (
+                base_samples
+                + (
+                    1
+                    if font_index < extra_samples
+                    else 0
+                )
             )
 
-            for text_index, text in enumerate(texts):
+            print(
+                f"  Font: {font_path.name} "
+                f"({samples_for_font} images)"
+            )
+
+            for sample_index in range(
+                samples_for_font
+            ):
+
+                # Select a unique text sample.
+                text = texts[text_index]
 
                 filename = (
                     f"{script}_{font_name}_"
-                    f"{text_index:02d}.png"
+                    f"{sample_index:02d}.png"
                 )
 
                 output_path = (
@@ -216,10 +331,11 @@ def generate_dataset():
                 )
 
                 image_id += 1
+                text_index += 1
 
-    # -----------------------------------------------------
+    # ---------------------------------------------------------
     # Save metadata
-    # -----------------------------------------------------
+    # ---------------------------------------------------------
 
     metadata_path = (
         OUTPUT_DIR / "metadata.json"
@@ -238,16 +354,45 @@ def generate_dataset():
             indent=4
         )
 
+    # ---------------------------------------------------------
+    # Dataset summary
+    # ---------------------------------------------------------
+
     print("\n" + "=" * 60)
     print("DATASET GENERATION COMPLETE")
     print("=" * 60)
 
     print(
-        f"\nImages generated: {len(metadata)}"
+        f"\nTotal images generated: "
+        f"{len(metadata)}"
+    )
+
+    # Count samples by language
+    language_counts = {}
+
+    for item in metadata:
+
+        script = item["script"]
+
+        language_counts[script] = (
+            language_counts.get(script, 0) + 1
+        )
+
+    print("\nImages by language:")
+
+    for script, count in language_counts.items():
+
+        print(
+            f"  {script.capitalize():<10}: "
+            f"{count}"
+        )
+
+    print(
+        f"\nMetadata saved to:"
     )
 
     print(
-        f"Metadata saved to: {metadata_path}"
+        metadata_path
     )
 
 

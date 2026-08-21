@@ -37,7 +37,7 @@
         "script": "english",
         "font": "calibri",
         "font_file": "fonts\\english\\calibri.ttf",
-        "text": "Hello World OCR Test"
+        "text": "Optical Character Recognition"
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "script": "english",
         "font": "calibri",
         "font_file": "fonts\\english\\calibri.ttf",
-        "text": "Multilingual Text Detection"
+        "text": "Testing Text Recognition Accuracy"
     },
     {
         "id": 6,
@@ -53,7 +53,7 @@
         "script": "english",
         "font": "calibri",
         "font_file": "fonts\\english\\calibri.ttf",
-        "text": "Font Agnostic OCR Pipeline"
+        "text": "Computer Vision Pipeline"
     },
     {
         "id": 7,
@@ -61,7 +61,7 @@
         "script": "english",
         "font": "calibri",
         "font_file": "fonts\\english\\calibri.ttf",
-        "text": "Detection Sample Line Two"
+        "text": "Language Detection Experiment"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "script": "english",
         "font": "comic",
         "font_file": "fonts\\english\\comic.ttf",
-        "text": "Hello World OCR Test"
+        "text": "Robust OCR Across Fonts"
     },
     {
         "id": 9,
@@ -77,7 +77,7 @@
         "script": "english",
         "font": "comic",
         "font_file": "fonts\\english\\comic.ttf",
-        "text": "Multilingual Text Detection"
+        "text": "Synthetic Dataset Generation"
     },
     {
         "id": 10,
@@ -85,7 +85,7 @@
         "script": "english",
         "font": "comic",
         "font_file": "fonts\\english\\comic.ttf",
-        "text": "Font Agnostic OCR Pipeline"
+        "text": "Machine Learning Text Analysis"
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@
         "script": "english",
         "font": "comic",
         "font_file": "fonts\\english\\comic.ttf",
-        "text": "Detection Sample Line Two"
+        "text": "Image Based Text Recognition"
     },
     {
         "id": 12,
@@ -101,7 +101,7 @@
         "script": "english",
         "font": "impact",
         "font_file": "fonts\\english\\impact.ttf",
-        "text": "Hello World OCR Test"
+        "text": "Cross Language OCR Evaluation"
     },
     {
         "id": 13,
@@ -109,7 +109,7 @@
         "script": "english",
         "font": "impact",
         "font_file": "fonts\\english\\impact.ttf",
-        "text": "Multilingual Text Detection"
+        "text": "Character Recognition Benchmark"
     },
     {
         "id": 14,
@@ -117,7 +117,7 @@
         "script": "english",
         "font": "impact",
         "font_file": "fonts\\english\\impact.ttf",
-        "text": "Font Agnostic OCR Pipeline"
+        "text": "Deep Learning Vision System"
     },
     {
         "id": 15,
@@ -125,7 +125,7 @@
         "script": "english",
         "font": "impact",
         "font_file": "fonts\\english\\impact.ttf",
-        "text": "Detection Sample Line Two"
+        "text": "Text Processing With OCR"
     },
     {
         "id": 16,
@@ -133,7 +133,7 @@
         "script": "english",
         "font": "times",
         "font_file": "fonts\\english\\times.ttf",
-        "text": "Hello World OCR Test"
+        "text": "Font Robustness Evaluation"
     },
     {
         "id": 17,
@@ -141,7 +141,7 @@
         "script": "english",
         "font": "times",
         "font_file": "fonts\\english\\times.ttf",
-        "text": "Multilingual Text Detection"
+        "text": "Multilingual Vision Pipeline"
     },
     {
         "id": 18,
@@ -149,7 +149,7 @@
         "script": "english",
         "font": "times",
         "font_file": "fonts\\english\\times.ttf",
-        "text": "Font Agnostic OCR Pipeline"
+        "text": "Automated Text Detection"
     },
     {
         "id": 19,
@@ -157,7 +157,7 @@
         "script": "english",
         "font": "times",
         "font_file": "fonts\\english\\times.ttf",
-        "text": "Detection Sample Line Two"
+        "text": "OCR Performance Analysis"
     },
     {
         "id": 20,
@@ -193,102 +193,134 @@
     },
     {
         "id": 24,
+        "image": "data\\dataset\\hindi\\aparaj\\hindi_aparaj_04.png",
+        "script": "hindi",
+        "font": "aparaj",
+        "font_file": "fonts\\hindi\\aparaj.ttf",
+        "text": "ऑप्टिकल कैरेक्टर रिकग्निशन"
+    },
+    {
+        "id": 25,
         "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_00.png",
         "script": "hindi",
         "font": "kokila",
         "font_file": "fonts\\hindi\\kokila.ttf",
-        "text": "नमस्ते दुनिया"
+        "text": "पाठ पहचान सटीकता परीक्षण"
     },
     {
-        "id": 25,
+        "id": 26,
         "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_01.png",
         "script": "hindi",
         "font": "kokila",
         "font_file": "fonts\\hindi\\kokila.ttf",
-        "text": "बहुभाषी पाठ पहचान"
+        "text": "कंप्यूटर विज़न पाइपलाइन"
     },
     {
-        "id": 26,
+        "id": 27,
         "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_02.png",
         "script": "hindi",
         "font": "kokila",
         "font_file": "fonts\\hindi\\kokila.ttf",
-        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+        "text": "भाषा पहचान प्रयोग"
     },
     {
-        "id": 27,
+        "id": 28,
         "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_03.png",
         "script": "hindi",
         "font": "kokila",
         "font_file": "fonts\\hindi\\kokila.ttf",
-        "text": "यह एक परीक्षण है"
+        "text": "विभिन्न फॉन्ट पर ओसीआर"
     },
     {
-        "id": 28,
+        "id": 29,
+        "image": "data\\dataset\\hindi\\kokila\\hindi_kokila_04.png",
+        "script": "hindi",
+        "font": "kokila",
+        "font_file": "fonts\\hindi\\kokila.ttf",
+        "text": "सिंथेटिक डेटासेट निर्माण"
+    },
+    {
+        "id": 30,
         "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_00.png",
         "script": "hindi",
         "font": "mangal",
         "font_file": "fonts\\hindi\\mangal.ttf",
-        "text": "नमस्ते दुनिया"
+        "text": "मशीन लर्निंग पाठ विश्लेषण"
     },
     {
-        "id": 29,
+        "id": 31,
         "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_01.png",
         "script": "hindi",
         "font": "mangal",
         "font_file": "fonts\\hindi\\mangal.ttf",
-        "text": "बहुभाषी पाठ पहचान"
+        "text": "चित्र आधारित पाठ पहचान"
     },
     {
-        "id": 30,
+        "id": 32,
         "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_02.png",
         "script": "hindi",
         "font": "mangal",
         "font_file": "fonts\\hindi\\mangal.ttf",
-        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+        "text": "बहुभाषी ओसीआर मूल्यांकन"
     },
     {
-        "id": 31,
+        "id": 33,
         "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_03.png",
         "script": "hindi",
         "font": "mangal",
         "font_file": "fonts\\hindi\\mangal.ttf",
-        "text": "यह एक परीक्षण है"
+        "text": "अक्षर पहचान परीक्षण"
     },
     {
-        "id": 32,
+        "id": 34,
+        "image": "data\\dataset\\hindi\\mangal\\hindi_mangal_04.png",
+        "script": "hindi",
+        "font": "mangal",
+        "font_file": "fonts\\hindi\\mangal.ttf",
+        "text": "डीप लर्निंग विज़न सिस्टम"
+    },
+    {
+        "id": 35,
         "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_00.png",
         "script": "hindi",
         "font": "utsaah",
         "font_file": "fonts\\hindi\\utsaah.ttf",
-        "text": "नमस्ते दुनिया"
+        "text": "ओसीआर के साथ पाठ प्रसंस्करण"
     },
     {
-        "id": 33,
+        "id": 36,
         "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_01.png",
         "script": "hindi",
         "font": "utsaah",
         "font_file": "fonts\\hindi\\utsaah.ttf",
-        "text": "बहुभाषी पाठ पहचान"
+        "text": "फॉन्ट मजबूती मूल्यांकन"
     },
     {
-        "id": 34,
+        "id": 37,
         "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_02.png",
         "script": "hindi",
         "font": "utsaah",
         "font_file": "fonts\\hindi\\utsaah.ttf",
-        "text": "फॉन्ट एग्नोस्टिक ओसीआर पाइपलाइन"
+        "text": "बहुभाषी विज़न पाइपलाइन"
     },
     {
-        "id": 35,
+        "id": 38,
         "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_03.png",
         "script": "hindi",
         "font": "utsaah",
         "font_file": "fonts\\hindi\\utsaah.ttf",
-        "text": "यह एक परीक्षण है"
+        "text": "स्वचालित पाठ पहचान"
     },
     {
-        "id": 36,
+        "id": 39,
+        "image": "data\\dataset\\hindi\\utsaah\\hindi_utsaah_04.png",
+        "script": "hindi",
+        "font": "utsaah",
+        "font_file": "fonts\\hindi\\utsaah.ttf",
+        "text": "ओसीआर प्रदर्शन विश्लेषण"
+    },
+    {
+        "id": 40,
         "image": "data\\dataset\\tamil\\latha\\tamil_latha_00.png",
         "script": "tamil",
         "font": "latha",
@@ -296,7 +328,7 @@
         "text": "வணக்கம் உலகம்"
     },
     {
-        "id": 37,
+        "id": 41,
         "image": "data\\dataset\\tamil\\latha\\tamil_latha_01.png",
         "script": "tamil",
         "font": "latha",
@@ -304,7 +336,7 @@
         "text": "பலமொழி உரை கண்டறிதல்"
     },
     {
-        "id": 38,
+        "id": 42,
         "image": "data\\dataset\\tamil\\latha\\tamil_latha_02.png",
         "script": "tamil",
         "font": "latha",
@@ -312,11 +344,139 @@
         "text": "எழுத்துரு சார்பற்ற OCR குழாய்"
     },
     {
-        "id": 39,
+        "id": 43,
         "image": "data\\dataset\\tamil\\latha\\tamil_latha_03.png",
         "script": "tamil",
         "font": "latha",
         "font_file": "fonts\\tamil\\latha.ttf",
         "text": "இது ஒரு சோதனை"
+    },
+    {
+        "id": 44,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_04.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "ஒளியியல் எழுத்து அங்கீகாரம்"
+    },
+    {
+        "id": 45,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_05.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "உரை அங்கீகார துல்லியம் சோதனை"
+    },
+    {
+        "id": 46,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_06.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "கணினி பார்வை குழாய்"
+    },
+    {
+        "id": 47,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_07.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "மொழி கண்டறிதல் பரிசோதனை"
+    },
+    {
+        "id": 48,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_08.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "வெவ்வேறு எழுத்துருக்களில் OCR"
+    },
+    {
+        "id": 49,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_09.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "செயற்கை தரவுத்தொகுப்பு உருவாக்கம்"
+    },
+    {
+        "id": 50,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_10.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "இயந்திர கற்றல் உரை பகுப்பாய்வு"
+    },
+    {
+        "id": 51,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_11.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "பட அடிப்படையிலான உரை அங்கீகாரம்"
+    },
+    {
+        "id": 52,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_12.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "பலமொழி OCR மதிப்பீடு"
+    },
+    {
+        "id": 53,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_13.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "எழுத்து அங்கீகார சோதனை"
+    },
+    {
+        "id": 54,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_14.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "ஆழமான கற்றல் பார்வை அமைப்பு"
+    },
+    {
+        "id": 55,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_15.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "OCR மூலம் உரை செயலாக்கம்"
+    },
+    {
+        "id": 56,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_16.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "எழுத்துரு வலிமை மதிப்பீடு"
+    },
+    {
+        "id": 57,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_17.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "பலமொழி பார்வை குழாய்"
+    },
+    {
+        "id": 58,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_18.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "தானியங்கி உரை கண்டறிதல்"
+    },
+    {
+        "id": 59,
+        "image": "data\\dataset\\tamil\\latha\\tamil_latha_19.png",
+        "script": "tamil",
+        "font": "latha",
+        "font_file": "fonts\\tamil\\latha.ttf",
+        "text": "OCR செயல்திறன் பகுப்பாய்வு"
     }
 ]
